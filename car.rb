@@ -13,7 +13,7 @@ class Car
 
     # как далеко мы сможем проехать
     def distance
-        0
+        @fuel * MILES_PER_GALLON
     end
 end
 
